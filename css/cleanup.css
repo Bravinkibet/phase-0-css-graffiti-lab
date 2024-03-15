@@ -1,1 +1,22 @@
-/* write your override styles here */
+.new-element {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+p.intro {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p.body-text {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.tag-1 {
+    background: url(../images/tag-1.png) no-repeat;
+    z-index: 7;
+    display: block;
+  }
+  #wall .tag-1 {
+    display: none;
+  }
